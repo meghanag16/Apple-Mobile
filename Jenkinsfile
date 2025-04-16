@@ -8,7 +8,7 @@ pipeline{
         pwd
         whoami
         uptime
-        echo $HOSTNAME
+        echo \$HOSTNAME
         """
       }
     }
